@@ -47,6 +47,15 @@ body, html {
     color: #082673;
 }
 
+.Judullayyy{
+    padding-top: 120px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #082673;
+}
+
 .Judullayy{
     padding-top: 30px;
     padding-bottom: 25px;
@@ -319,6 +328,32 @@ footer {
     border-radius: 20px;
 }
 
+.boxxx {
+    padding-left:200px;
+    width: 1300px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 600px;
+}
+
+.image12{
+    padding-left: 395px;
+    padding-top: 80px;
+}
+
+.boxxx .rectangle {
+
+    width: 1300px;
+    height: 500px;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 24px 48px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
 .title-vm {
     color: #082673;
     font-size: 38px;
@@ -336,6 +371,12 @@ footer {
     text-align: center;
 }
 
+.des-vmmm {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
 .des-vmm {
     padding-left: 200px;
     padding-right: 200px;
@@ -345,6 +386,42 @@ footer {
     .image1 {
         width: 100%;
         height: auto;
+    }
+    .boxx {
+        width: 750px;
+        height: 680px;
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 700px;
+        padding-left: 70px;
+    }
+
+    .boxx .rectangle {
+        width: 750px;
+        height: 680px;
+        top: 0;
+        left: 0;
+        background-color: #dce5ff;
+        border-radius: 20px;
+    }
+
+    .title-vm {
+        color: #082673;
+        font-family: Poppins;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        padding-top: 40px;
+        padding-bottom: 35px;
+        
+    }
+
+    .des-vm {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 14px;
     }
 }
 
@@ -464,7 +541,7 @@ footer {
         justify-content: center;
         padding-top: 20px;
         padding-bottom: 700px;
-        padding-left: 10px;
+        padding-left: 40px;
     }
 
     .boxx .rectangle {

@@ -62,7 +62,7 @@ body, html {
     text-align: center;
     font-size: 32px;
     font-weight: bold;
-    color: white;
+    color: black;
 }
 
 .jul1{
@@ -121,7 +121,7 @@ body, html {
 .toggle-button .bar {
     height: 3px;
     width: 100%;
-    background-color: white;
+    background-color: black;
     border-radius: 10px;
 }
 
@@ -423,6 +423,32 @@ footer {
         padding-right: 10px;
         font-size: 14px;
     }
+
+    .boxxx {
+        padding-left:50px;
+        width: 760px;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+        padding-bottom: 550px;
+    }
+    
+    .image12{
+        padding-left: 230px;
+        padding-top: 80px;
+    }
+    
+    .boxxx .rectangle {
+    
+        width: 760px;
+        height: 500px;
+        top: 0;
+        left: 0;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0px 24px 48px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
 }
 
 @media (max-width: 992px) {
@@ -574,6 +600,37 @@ footer {
         padding-left: 10px;
         padding-right: 10px;
         font-size: 14px;
+    }
+    .boxxx {
+        padding-left:20px;
+        width: 405px;
+        height: 550px;
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+        padding-bottom: 580px;
+    }
+    
+    .image12{
+        padding-left: 90px;
+        padding-top: 80px;
+    }
+    
+    .boxxx .rectangle {
+    
+        width: 405px;
+        height: 550px;
+        top: 0;
+        left: 0;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0px 24px 48px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .des-vmmm {
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
 }

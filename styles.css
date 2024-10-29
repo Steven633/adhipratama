@@ -22,6 +22,34 @@ body, html {
     object-fit: cover; /* Ensures the image covers the entire viewport without distortion */
 }
 
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.info-item img{
+    width: 30px;
+    height: 30px;
+    background-color: #1a237e; /* Warna biru tua */
+    padding: 10px;
+    border-radius: 50%;
+    /* Mengubah warna ikon menjadi putih */
+}
+
+.info-item p {
+    margin: 0;
+    font-size: 16px;
+    color: #000;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -338,6 +366,15 @@ footer {
     padding-bottom: 600px;
 }
 
+.boxxxx {
+    padding-left:200px;
+    width: 1300px;
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 600px;
+}
 .image12{
     padding-left: 395px;
     padding-top: 80px;
@@ -347,6 +384,17 @@ footer {
 
     width: 1300px;
     height: 500px;
+    top: 0;
+    left: 0;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 24px 48px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.boxxxx .rectangle {
+
+    width: 1300px;
+    height: 650px;
     top: 0;
     left: 0;
     background-color: white;
@@ -380,6 +428,70 @@ footer {
 .des-vmm {
     padding-left: 200px;
     padding-right: 200px;
+}
+
+.contact-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    border-radius: 10px;
+}
+
+.soon {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.image122{
+    padding-left: 390px;
+}
+
+/* Form Styling */
+.email-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #1a237e;
+    box-shadow: 0 0 5px rgba(26, 35, 126, 0.5);
+}
+
+/* Submit Button */
+button {
+    padding: 15px;
+    background-color: #1a237e;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #303f9f;
 }
 
 @media (max-width: 1200px) {
@@ -459,6 +571,30 @@ footer {
 }
 
 @media (max-width: 768px) {
+    .contact-info{
+        padding-left: 15px;
+    }
+    
+    .image122{
+        padding-left: 45px;
+    }
+
+    .soon {
+        font-size: 12px;
+        padding-top: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+        margin-bottom: 30px;
+        color: #666;
+    }
+
+    .contact-container {
+        max-width: 300px;
+        margin: 50px auto;
+        border-radius: 10px;
+    }
+
     .toggle-button {
         display: flex;
     }
@@ -610,6 +746,16 @@ footer {
         padding-top: 50px;
         padding-bottom: 580px;
     }
+
+    .boxxxx {
+        padding-left:20px;
+        width: 405px;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+        padding-bottom: 580px;
+    }
     
     .image12{
         padding-left: 90px;
@@ -620,6 +766,17 @@ footer {
     
         width: 405px;
         height: 550px;
+        top: 0;
+        left: 0;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 0px 24px 48px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    .boxxxx .rectangle {
+    
+        width: 405px;
+        height: 650px;
         top: 0;
         left: 0;
         background-color: white;
